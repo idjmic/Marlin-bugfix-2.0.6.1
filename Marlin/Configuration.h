@@ -545,9 +545,9 @@
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
 //Stock CR-10 Bed Tuned for 70C
-  #define DEFAULT_bedKp 56.71
-  #define DEFAULT_bedKi 11.05
-  #define DEFAULT_bedKd 194.02
+  #define DEFAULT_bedKp 109.70
+  #define DEFAULT_bedKi 21.38
+  #define DEFAULT_bedKd 375.27
   
     //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
@@ -610,7 +610,7 @@
 
 #define THERMAL_PROTECTION_HOTENDS // Enable thermal protection for all extruders
 #define THERMAL_PROTECTION_BED     // Enable thermal protection for the heated bed
-#define THERMAL_PROTECTION_CHAMBER // Enable thermal protection for the heated chamber
+// #define THERMAL_PROTECTION_CHAMBER // Enable thermal protection for the heated chamber
 
 //===========================================================================
 //============================= Mechanical Settings =========================
